@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(lamp.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li, .home{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 40px;
+}
+nav ul li a{
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color:transparent;
+    color: white;
+    border:none;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: bold;
+}
+span{
+    color: #bf999f;
+}
+.container{
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    position: relative;
+    font-weight: bolder;
+}
+a:hover{
+    color: #bf999f;
+    transition: .3s;
+    font-weight: bolder;
+}
+.home a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border-color: white;
+    padding: 8px;
+}
